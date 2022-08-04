@@ -1,8 +1,8 @@
 import * as uuid from 'uuid'
-import { TodoAccess } from './todosAcess'
+import { TodoAccess } from '../dataLayer/todosAcess'
 import { CreateTodoRequest } from '../requests/CreateTodoRequest'
 import { TodoUpdate } from '../models/TodoUpdate'
-import { AttachmentAccess } from './attachmentUtils'
+import { AttachmentAccess } from '../dataLayer/attachmentUtils'
 
 const todoAccess = new TodoAccess();
 const attachmentAccess = new AttachmentAccess()
